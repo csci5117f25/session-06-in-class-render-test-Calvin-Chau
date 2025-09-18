@@ -5,10 +5,12 @@ We will go over steps in lecture. You should fill out the following:
 
 ## What steps do I need to do when I download this repo to get it running?
 
+- Change the Python version inside of the Pipfile to the correct version (3.13.7 in my case)
+- Run `pipenv install` to update the Pipfile.lock file
 
 
 ## What commands starts the server?
-
+- Run `flask --app server.py run --debug`
 
 ## Before render
 
